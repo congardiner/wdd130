@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.icon{
+    width: 80px;
+}
+
 .home-title {
     color: white;
 }
@@ -15,7 +19,8 @@ nav a{
 
 nav a:hover{
     background-color: white;
-    color:#D7E6C8
+    color:#D7E6C8;
+    text-decoration: none;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -28,6 +33,7 @@ nav a:hover{
 
 .book:hover, .join:hover {
     background-color: #C5E6D9;
+    text-decoration: none;
 }
 
 .msg {
@@ -68,15 +74,21 @@ footer {
     color: black;
 }
 
+footer a{
+    color: white;
+}
+
 footer a:hover{
     color: #E2E6B8;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
 }
 
 
-
-
-
-
-
-
-*/now all the correct elements have been aligned and formatted correctly./*
