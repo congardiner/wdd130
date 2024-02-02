@@ -5,17 +5,60 @@
 
 nav a{
     text-align: center;
+    background-color: bisque;
+}
+
+nav a:hover{
+    background-color: white;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+
+.book, .join {
+    background-color: #9AE693;
+}
+
+.book:hover, .join:hover {
+    background-color: #C5E6D9;
+}
+
+.msg {
+    background-color: white;
+}
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
 
-<!--- now all the correct elements have been aligned and formatted correctly. --->
+#background {
+    height: 725px;
+    background-color: white;
+}
 
+header {
+    background-color: #D7E6C8;
+}
+
+body {
+    background-color: #E2E6B8;
+}
+
+
+footer {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+*/now all the correct elements have been aligned and formatted correctly./*
