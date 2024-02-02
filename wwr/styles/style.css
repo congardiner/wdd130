@@ -3,13 +3,19 @@
     margin: 0 auto;
 }
 
+.home-title {
+    color: white;
+}
+
 nav a{
     text-align: center;
     background-color: bisque;
+    color: white;
 }
 
 nav a:hover{
     background-color: white;
+    color:#D7E6C8
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -26,6 +32,13 @@ nav a:hover{
 
 .msg {
     background-color: white;
+}
+.msg p h2 {
+    color: black;
+}
+
+h4 {
+    color: white;
 }
 
 .button-box {
@@ -52,6 +65,11 @@ body {
 
 footer {
     background-color: white;
+    color: black;
+}
+
+footer a:hover{
+    color: #E2E6B8;
 }
 
 
