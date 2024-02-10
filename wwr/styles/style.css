@@ -55,6 +55,7 @@ nav a:hover{
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+    color: white;
 }
 
 .mountain {
@@ -117,7 +118,7 @@ header {
 
 body {
     background-color: #E2E6B8;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
