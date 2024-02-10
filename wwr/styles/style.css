@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,16 +8,30 @@
 
 .icon{
     width: 80px;
+    padding-top: 10px 10px 10px 10px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+#logo_link{
+    padding-top: 5px;
 }
 
 .home-title {
-    color: white;
+    color: #50B37B;
+    font-family: "Rock Salt", cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 nav a{
     text-align: center;
-    background-color: bisque;
+    background-color: black;
     color: white;
+    padding: 35px;
+    border: 10px white;
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -28,7 +45,24 @@ nav a:hover{
 }
 
 .book, .join {
-    background-color: #9AE693;
+    background-color: whitesmoke;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.mountain {
+    margin: 100px 0;
+}
+
+.card img {
+    border: 10px solid white;
 }
 
 .book:hover, .join:hover {
@@ -38,13 +72,26 @@ nav a:hover{
 
 .msg {
     background-color: white;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
 }
 .msg p h2 {
     color: black;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: .8em;
+    margin: 0;
 }
 
 h4 {
-    color: white;
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .button-box {
@@ -53,6 +100,10 @@ h4 {
 
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -66,16 +117,24 @@ header {
 
 body {
     background-color: #E2E6B8;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 
 footer {
     background-color: white;
+    font-family: "Rock Salt", cursive;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
-    color: white;
+    color: black;
+    text-decoration: none;
 }
 
 footer a:hover{
@@ -90,5 +149,10 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+
+footer .social img {
+    padding-top: 15px;
+}
+
 
 
