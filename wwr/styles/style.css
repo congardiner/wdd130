@@ -16,6 +16,8 @@
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .home-title {
@@ -23,6 +25,11 @@
     font-family: "Rock Salt", cursive;
     font-size: 2em;
     margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a{
@@ -40,8 +47,27 @@ nav a:hover{
     text-decoration: none;
 }
 
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    color: white;
 }
 
 .book, .join {
@@ -58,12 +84,34 @@ nav a:hover{
     color: white;
 }
 
-.mountain {
-    margin: 100px 0;
+.rivers-card {
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
 }
+
+.camping-card {
+    grid-column: 5 / span 3;
+    grid-row: 2 / span 2;
+}
+
+.rapids-card {
+    grid-column: 8 / span 3;
+    grid-row: 2 / span 2;
+}
+
 
 .card-img {
     border: 10px solid white;
+}
+
+.mountains {
+    margin: 100px 0;
+    grid-column: 2 / span 6;
+    grid-row: 5 / span 3;
+}
+
+.card-img .mountains {
+    width: 100%;
 }
 
 .book:hover, .join:hover {
@@ -74,6 +122,8 @@ nav a:hover{
 .msg {
     background-color: white;
     padding: 35px;
+    grid-column: 6 / span 4;
+    grid-row: 6 / span 1;
 }
 
 .msg p {
@@ -109,9 +159,14 @@ main section img {
 #background {
     height: 725px;
     background-color: white;
+    grid-column: 1 / span 11;
+    grid-row: 4 / span 6;
+
 }
 
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: #D7E6C8;
 }
 
