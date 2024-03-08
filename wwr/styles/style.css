@@ -91,9 +91,12 @@ nav a:hover{
     margin: 200px 0;
     color: white;
 }
+.card-img, .mountains{
+    width: 100%;
+}
 
 .rivers-card {
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
     grid-row: 2 / 3;
 }
 
@@ -154,6 +157,15 @@ nav a:hover{
     margin: 0;
 }
 
+.msg-river {
+    background-color: white;
+    padding: 35px;
+    grid-column: 6 / 10;
+    grid-row: 6 / 7;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
 h4 {
     color: black;
     font-family: "Lato", sans-serif;
@@ -175,7 +187,7 @@ main section img {
 
 #background {
     height: 725px;
-    background-color: white;
+    background-color: black;
     grid-column: 1 / 11;
     grid-row: 4 / 9;
 
@@ -229,6 +241,13 @@ footer .social img {
     padding-top: 15px;
 }
 
+.river-h1 {
+    align-content: left;
+    font-size: 1.4em;
+    text-decoration-line: none;
+
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -257,8 +276,8 @@ footer .social img {
 
     #hero-msg h1 {
         color: #6f7364;
-    }
-
+    }  
+    
     .home-title {
         font-size: 25px;
     }
@@ -276,6 +295,15 @@ footer .social img {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+
+    .msg-river {
+        background-color: white;
+        padding: 35px;
+        grid-column: 6 / 10;
+        grid-row: 6 / 7;
+        box-shadow: 5px 5px 10px #6f7364;
+        
     }
     
     footer {

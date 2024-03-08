@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+body{
+    background-color: black;
+}
+
+.card {
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.hero {
+    text-align: center;
+    font-size: 12px;
+}
+
+.headerimage{
+    padding: 10%;
+    text-align: center;
+    image-resolution: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.awesomearticle {
+    padding: 10%;
+    text-align: center;
+}
+
+.grid-container {
+    display: inline-grid;
+}
+
+.grid1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+}
+
+
+
+
+
